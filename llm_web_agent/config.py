@@ -1,13 +1,13 @@
-# 🌐 Local model (Ollama)
+# Local model (Ollama)
 LOCAL_LM_URL = "http://localhost:11434"   # URL of the local Ollama API
 MODEL = "mistral"                         # Ollama model name
 LOCAL_LM_MODEL = "mistral"
 
-# 🔍 Local search engine (SearxNG)
+#  Local search engine (SearxNG)
 SEARXNG_URL = "http://localhost:8080"     # Local SearxNG instance
 MAX_RESULTS = 5                           # Number of search results to fetch
 
-# 🧠 Triggers & behavior tuning
+# Triggers & behavior tuning
 IMAGE_SEARCH_TRIGGER_KEYWORDS = [
     "image", "photo", "picture", "diagram", "chart", "graph"
 ]
@@ -21,15 +21,15 @@ SEARCH_TRIGGER_KEYWORDS = [
     "search", "find", "information", "details", "explain", "about", "summarize"
 ]
 
-# ⚙️ Response settings
+#  Response settings
 MAX_TOKENS = 1024                         # Response length limit (varies per model)
 TEMPERATURE = 0.7                         # Creativity level for LLM generation
 
-# 🪣 Optional file output (set True to save responses)
+#  Optional file output (set True to save responses)
 SAVE_RESPONSES = False
 OUTPUT_DIR = "responses"
 
-# 🧾 Logging
+#  Logging
 LOGGING_ENABLED = True
 LOG_FILE = "agent_log.txt"
 
