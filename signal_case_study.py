@@ -10,7 +10,7 @@ Comprehensive privacy analysis of Signal Messenger including:
 
 import subprocess
 import json
-import time
+import time 
 import sys
 import argparse
 from typing import List, Dict, Optional
